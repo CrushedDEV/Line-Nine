@@ -35,9 +35,13 @@ export default function About() {
                     className="relative aspect-square md:aspect-video bg-zinc-900 border border-white/10 p-2"
                 >
                     {/* Placeholder for Club Image/Video */}
-                    <div className="w-full h-full bg-zinc-800 flex items-center justify-center relative overflow-hidden group">
-                        <div className="absolute inset-0 bg-neon-green/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
-                        <span className="text-neon-green/30 font-mono text-xl uppercase tracking-widest">[ CLUB FOOTAGE ]</span>
+                    <div className="w-full h-full relative overflow-hidden group">
+                        <img
+                            src="https://images.unsplash.com/photo-1566737236500-c8ac43014a67?w=800&q=80"
+                            alt="Club Footage"
+                            className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700"
+                        />
+                        <div className="absolute inset-0 bg-neon-green/10 opacity-0 group-hover:opacity-100 transition-opacity duration-500 mix-blend-overlay" />
 
                         {/* Animated corners */}
                         <div className="absolute top-0 left-0 w-4 h-4 border-t-2 border-l-2 border-neon-green" />

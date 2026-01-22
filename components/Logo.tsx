@@ -20,19 +20,7 @@ export default function Logo() {
                         <span className="text-neon-green">NINE</span>
                     </h1>
 
-                    {/* Glitch Shadow 1 */}
-                    <h1 className="absolute top-0 left-0 w-full text-[15vw] md:text-[8vw] font-black tracking-tighter leading-[0.85] text-red-500 mix-blend-screen z-10 animate-pulse opacity-30 translate-x-[1px] text-center">
-                        LINE
-                        <br />
-                        NINE
-                    </h1>
-
-                    {/* Glitch Shadow 2 */}
-                    <h1 className="absolute top-0 left-0 w-full text-[15vw] md:text-[8vw] font-black tracking-tighter leading-[0.85] text-blue-500 mix-blend-screen z-10 animate-pulse opacity-30 -translate-x-[1px] translate-y-[1px] text-center" style={{ animationDelay: '0.1s' }}>
-                        LINE
-                        <br />
-                        NINE
-                    </h1>
+                    {/* Glitch Shadows Removed */}
                 </div>
             </motion.div>
         </div>

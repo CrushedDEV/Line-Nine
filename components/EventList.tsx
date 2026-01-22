@@ -47,7 +47,7 @@ export default function EventList() {
                                 <div className="text-center flex justify-center">
                                     <span className="bg-white text-black w-6 h-6 flex items-center justify-center font-bold text-sm rounded-full">{event.platform}</span>
                                 </div>
-                                <span className={`text-right text-sm font-bold animate-pulse ${event.status === 'DELAYED' ? 'text-red-500' : 'text-neon-green'}`}>
+                                <span className={`text-right text-sm font-bold ${event.status === 'DELAYED' ? 'text-red-500' : 'text-neon-green'}`}>
                                     {event.status}
                                 </span>
                             </motion.div>
